@@ -8,7 +8,7 @@ describe('Whole test functions', ()=>{
         it('Should return the number came out of the string', ()=>{
             const actualResult=index.stringToNum("7");
             const expectedResult=7;
-            assert.equal(actualResult,expectedResult);
+            assert.strictEqual(actualResult,expectedResult);
         })
 
     })
